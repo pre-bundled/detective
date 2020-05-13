@@ -1,6 +1,6 @@
-var acorn = require('acorn-node');
-var walk = require('acorn-node/walk');
-var defined = require('defined');
+var acorn = require("./pre-bundled/node_modules/acorn-node");
+var walk = require("./pre-bundled/node_modules/acorn-node/walk");
+var defined = require("./pre-bundled/node_modules/defined");
 
 var requireRe = /\brequire\b/;
 
