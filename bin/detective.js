@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var detective = require('../');
-var argv = require('minimist')(process.argv.slice(2));
+var argv = require("../pre-bundled/node_modules/minimist")(process.argv.slice(2));
 var fs = require('fs');
 
 argv._.forEach(function(file) {
